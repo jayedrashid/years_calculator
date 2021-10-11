@@ -1,23 +1,3 @@
-
-// function fnCalculateAgeFromGivesDates(){
-//   var startDateInput = document.getElementById("txtStartDate").value;  
-//   var endDateInput = document.getElementById("txtEndDate").value;  	 
- 
-//   // convert user input values into date object
-// var startDate = new Date(startDateInput);
-// var endDate  = new Date(endDateInput);
-    
-// // get difference between two date;
-// var difference = endDate - startDate.getTime(); 
-    
-// var  ageDate = new Date(difference); 
-// var calculatedAge =  Math.abs(ageDate.getUTCFullYear() - 1970);
-// alert(calculatedAge);
-
-// }
-
-
-
 const firstDate = document.getElementById('txtStartDate');
 const secondDate = document.getElementById('txtEndDate');
 
@@ -39,23 +19,3 @@ function YearCalculator() {
 }
 
 button.addEventListener('click', YearCalculator);
-
-
-
-
-// function fnCalculateAgeFromGivesDates(){
-//   var startDateInput = document.getElementById("txtStartDate").value;  
-//   var endDateInput = document.getElementById("txtEndDate").value;  	 
- 
-//   // convert user input values into date object
-// var startDate = new Date(startDateInput);
-// var endDate  = new Date(endDateInput);
-    
-// // get difference between two date;
-// var difference = endDate - startDate.getTime(); 
-    
-// var  ageDate = new Date(difference); 
-// var calculatedAge =  Math.abs(ageDate.getUTCFullYear() - 1970);
-// alert(calculatedAge);
-
-// }
