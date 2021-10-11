@@ -8,5 +8,5 @@ Years Calculator calculates between dates in years.
   
 ## Features
 
-- Use of getUTCFullYear.
+- Use of getUTCFullYear().
 - Year calculation.
